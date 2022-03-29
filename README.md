@@ -1,20 +1,20 @@
 # Controllable-NLG-Final-Project
 
 ## Quick setup to just run classifier and/or view data:
-all.csv: Scraped headlines formatted into csv.
-left.tsv: Subset of 250 left-aligned headlines in WNC format for bias-removal algorithm.
-right.tsv: Subset of 250 right-aligned headlines in WNC format for bias-removal algorithm.
-training.csv: Scraped headlines with ids that are in right.tsv or left.tsv removed.
+all.csv: Scraped headlines formatted into csv. \
+left.tsv: Subset of 250 left-aligned headlines in WNC format for bias-removal algorithm. \
+right.tsv: Subset of 250 right-aligned headlines in WNC format for bias-removal algorithm.\ 
+training.csv: Scraped headlines with ids that are in right.tsv or left.tsv removed.\
 
-output.txt:  Output from bias-removal algorithm with left.tsv as input.
-outputright.txt: Output from bias-removal algorithm with right.tsv as input.
+output.txt:  Output from bias-removal algorithm with left.tsv as input.\
+outputright.txt: Output from bias-removal algorithm with right.tsv as input.\
 
-classifbycenter.csv: Only center headlines from training.csv with only id and headline columns.
-classifyleft.csv: Only left headlines from training.csv with only id and headline columns.
-classifyright.csv: Only rightheadlines from training.csv with only id and headline columns.
+classifbycenter.csv: Only center headlines from training.csv with only id and headline columns.\
+classifyleft.csv: Only left headlines from training.csv with only id and headline columns.\
+classifyright.csv: Only rightheadlines from training.csv with only id and headline columns.\
 
-lefttest.csv: output.txt formatted for classifier.
-righttest.csv: outputright.txt formatted for classifier.
+lefttest.csv: output.txt formatted for classifier.\
+righttest.csv: outputright.txt formatted for classifier.\
 
 
 Unzip data.zip which contains all the files and place the data folder in Classifier (so you have directory data/kaggle) and run Classify.ipynb. You can train it or skip the cell and just load the model weights and evaluate. You can train it or skip the cell and just load the model weights and evaluate. 
