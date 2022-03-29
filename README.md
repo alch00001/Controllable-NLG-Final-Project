@@ -40,7 +40,7 @@ BiasRemoval.ipynb: Processes our tsv files, downloads model checkpoint and runs 
 
 
 Run preprocess2.py and preprocess3.py which create classifbycenter.csv, classifyleft.csv, classifyright.csv, lefttest.csv and righttest.csv. Place these in Classifier/data/kaggle, along with classifbycenter.csv, classifyleft.csv and classifyright.csv. 
-Run Classify.ipynb. You can train it or skip the cell and just load the model weights and evaluate. You can train it or skip the cell and just load the model weights and evaluate. 
+Run Classify.ipynb. You can train it or skip the cell and just load the model weights and evaluate. \
 If there are directory issues make sure these directories exist and you downloaded the glove embedding to Classifier/data/GloVe and have the data in Classifier/data/kaggle.
 
 ## PREPROCESSING SCRIPT EXPLANATION:
