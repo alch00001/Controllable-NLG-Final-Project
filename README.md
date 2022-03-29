@@ -1,5 +1,10 @@
 # Controllable-NLG-Final-Project
 
+##Credits:
+Webscraping: https://github.com/csinva/news-title-bias
+Bias-Removal: https://github.com/rpryzant/neutralizing-bias
+Classifier: https://github.com/natel9178/CS230-news-bias/tree/binary
+
 ## Quick setup to just run classifier and/or view data:
 all.csv: Scraped headlines formatted into csv. \
 left.tsv: Subset of 250 left-aligned headlines in WNC format for bias-removal algorithm. \
