@@ -4,17 +4,17 @@
 all.csv: Scraped headlines formatted into csv. \
 left.tsv: Subset of 250 left-aligned headlines in WNC format for bias-removal algorithm. \
 right.tsv: Subset of 250 right-aligned headlines in WNC format for bias-removal algorithm.\ 
-training.csv: Scraped headlines with ids that are in right.tsv or left.tsv removed.\
+training.csv: Scraped headlines with ids that are in right.tsv or left.tsv removed.
 
 output.txt:  Output from bias-removal algorithm with left.tsv as input.\
-outputright.txt: Output from bias-removal algorithm with right.tsv as input.\
+outputright.txt: Output from bias-removal algorithm with right.tsv as input.
 
 classifbycenter.csv: Only center headlines from training.csv with only id and headline columns.\
 classifyleft.csv: Only left headlines from training.csv with only id and headline columns.\
-classifyright.csv: Only rightheadlines from training.csv with only id and headline columns.\
+classifyright.csv: Only rightheadlines from training.csv with only id and headline columns.
 
 lefttest.csv: output.txt formatted for classifier.\
-righttest.csv: outputright.txt formatted for classifier.\
+righttest.csv: outputright.txt formatted for classifier.
 
 
 Unzip data.zip which contains all the files and place the data folder in Classifier (so you have directory data/kaggle) and run Classify.ipynb. You can train it or skip the cell and just load the model weights and evaluate. You can train it or skip the cell and just load the model weights and evaluate. 
@@ -36,7 +36,7 @@ BiasRemoval.ipynb: Processes our tsv files, downloads model checkpoint and runs 
 
 Run preprocess2.py and preprocess3.py which create classifbycenter.csv, classifyleft.csv, classifyright.csv, lefttest.csv and righttest.csv. Place these in Classifier/data/kaggle, along with classifbycenter.csv, classifyleft.csv and classifyright.csv. 
 Run Classify.ipynb. You can train it or skip the cell and just load the model weights and evaluate. You can train it or skip the cell and just load the model weights and evaluate. 
-If there are directory issues make sure you downloaded the glove embedding to data/GloVe and have the data in data/kaggle.
+If there are directory issues make sure these directories exist and you downloaded the glove embedding to Classifier/data/GloVe and have the data in Classifier/data/kaggle.
 
 ## PREPROCESSINg SCRIPT EXPLANATION:
 
