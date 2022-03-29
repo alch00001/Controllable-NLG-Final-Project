@@ -38,7 +38,7 @@ Run preprocess2.py and preprocess3.py which create classifbycenter.csv, classify
 Run Classify.ipynb. You can train it or skip the cell and just load the model weights and evaluate. You can train it or skip the cell and just load the model weights and evaluate. 
 If there are directory issues make sure these directories exist and you downloaded the glove embedding to Classifier/data/GloVe and have the data in Classifier/data/kaggle.
 
-## PREPROCESSINg SCRIPT EXPLANATION:
+## PREPROCESSING SCRIPT EXPLANATION:
 
 Preprocess.py: takes webscraped headlines and puts them into the appropriate format for the bias-removal algorithm and removes the amount specified from the original data so we have some leftover for training our classifier later on.
 
